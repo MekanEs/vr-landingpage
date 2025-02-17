@@ -1,0 +1,29 @@
+
+.logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+.logo:hover .logo__image{
+    animation: rotate 3s ease-in-out infinite alternate-reverse;
+
+}
+
+.logo__image{
+    width: 102px;
+}
+
+.logo__text{
+    width: 76px;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

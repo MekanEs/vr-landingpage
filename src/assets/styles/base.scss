@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --bg-color:#302C42;
+    --white-color:#ffffff;
+    --black-color:#000000;
+    --gradient-color: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    --dark-text-color:#343045
+    
+}
+
+@mixin typography-interactive($size:12px){
+    text-transform: uppercase;
+    letter-spacing: normal;
+    font-weight: bold;
+    font-size: $size;
+}

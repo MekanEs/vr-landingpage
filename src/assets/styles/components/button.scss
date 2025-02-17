@@ -1,0 +1,207 @@
+.button{
+    border-radius: 40px;
+    padding: 16px 36px;
+    border: 1px solid var(--white-color);
+    @include typography-interactive;
+    color: var(--white-color);
+    background: none;
+    height: fit-content;
+    min-width: 154px;
+    text-align: center;
+}
+.button:hover, .button:focus{
+    animation: shine-white 300ms 1;
+}
+
+.button--gradient{
+    border: none;
+    background: rgb(129,118,175);
+    background: var(--gradient-color);
+    color: var(--dark-text-color);
+
+}
+.button--gradient:hover, .button--gradient:focus{
+    animation: shine-gradient 300ms 1;
+}
+
+@keyframes shine-white {
+  0% {
+    background: linear-gradient(
+      135deg,
+      transparent 5%,
+      rgba(255, 255, 255, 0.8) 10%,
+      transparent 20%
+    );
+  }
+  10% {
+    background: linear-gradient(
+      135deg,
+      transparent 10%,
+      rgba(255, 255, 255, 0.8) 20%,
+      transparent 30%
+    );
+  }
+  20% {
+    background: linear-gradient(
+      135deg,
+      transparent 20%,
+      rgba(255, 255, 255, 0.8) 30%,
+      transparent 40%
+    );
+  }
+  30% {
+    background: linear-gradient(
+      135deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.8) 40%,
+      transparent 50%
+    );
+  }
+  40% {
+    background: linear-gradient(
+      135deg,
+      transparent 40%,
+      rgba(255, 255, 255, 0.8) 50%,
+      transparent 60%
+    );
+  }
+  50% {
+    background: linear-gradient(
+      135deg,
+      transparent 50%,
+      rgba(255, 255, 255, 0.8) 60%,
+      transparent 70%
+    );
+  }
+  60% {
+    background: linear-gradient(
+      135deg,
+      transparent 60%,
+      rgba(255, 255, 255, 0.8) 70%,
+      transparent 80%
+    );
+  }
+  70% {
+    background: linear-gradient(
+      135deg,
+      transparent 70%,
+      rgba(255, 255, 255, 0.8) 80%,
+      transparent 90%
+    );
+  }
+  80% {
+    background: linear-gradient(
+      135deg,
+      transparent 80%,
+      rgba(255, 255, 255, 0.8) 90%,
+      transparent 95%
+    );
+  }
+  90% {
+    background: linear-gradient(
+      135deg,
+      transparent 85%,
+      rgba(255, 255, 255, 0.8) 95%,
+      transparent 98%
+    );
+  }
+  100% {
+    background: linear-gradient(
+      135deg,
+      transparent 90%,
+      rgba(255, 255, 255, 0.8) 98%,
+      transparent 100%
+    );
+  }
+}
+
+@keyframes shine-gradient{
+  0% {
+    background: linear-gradient(
+      135deg,
+      #8176af 5%,
+      rgba(255, 255, 255, 0.8) 10%,
+      #c0b7e8 20%
+    );
+  }
+  10% {
+    background: linear-gradient(
+      135deg,
+      #8176af 10%,
+      rgba(255, 255, 255, 0.8) 20%,
+      #c0b7e8 30%
+    );
+  }
+  20% {
+    background: linear-gradient(
+      135deg,
+      #8176af 20%,
+      rgba(255, 255, 255, 0.8) 30%,
+      #c0b7e8 40%
+    );
+  }
+  30% {
+    background: linear-gradient(
+      135deg,
+      #8176af 30%,
+      rgba(255, 255, 255, 0.8) 40%,
+      #c0b7e8 50%
+    );
+  }
+  40% {
+    background: linear-gradient(
+      135deg,
+      #8176af 40%,
+      rgba(255, 255, 255, 0.8) 50%,
+      #c0b7e8 60%
+    );
+  }
+  50% {
+    background: linear-gradient(
+      135deg,
+      #8176af 50%,
+      rgba(255, 255, 255, 0.8) 60%,
+      #c0b7e8 70%
+    );
+  }
+  60% {
+    background: linear-gradient(
+      135deg,
+      #8176af 60%,
+      rgba(255, 255, 255, 0.8) 70%,
+      #c0b7e8 80%
+    );
+  }
+  70% {
+    background: linear-gradient(
+      135deg,
+      #8176af 70%,
+      rgba(255, 255, 255, 0.8) 80%,
+      #c0b7e8 90%
+    );
+  }
+  80% {
+    background: linear-gradient(
+      135deg,
+      #8176af 80%,
+      rgba(255, 255, 255, 0.8) 90%,
+      #c0b7e8 95%
+    );
+  }
+  90% {
+    background: linear-gradient(
+      135deg,
+      #8176af 85%,
+      rgba(255, 255, 255, 0.8) 95%,
+      #c0b7e8 98%
+    );
+  }
+  100% {
+    background: linear-gradient(
+      135deg,
+      #8176af 90%,
+      rgba(255, 255, 255, 0.8) 98%,
+      transparent 100%
+    );
+  }
+}

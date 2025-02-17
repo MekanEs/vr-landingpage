@@ -1,0 +1,15 @@
+@import "reset";
+@import "base";
+@import "./components/index.scss";
+
+body{
+    background-color: var(--bg-color);
+    font-family: Montserrat, Courier, system-ui, sans-serif;
+}
+
+.app{
+    padding: 50px 84px;
+}
+
+
+
