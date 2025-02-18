@@ -3,14 +3,11 @@
 @import "mixins";
 @import "./components/index.scss";
 
-body{
+body {
     background-color: var(--bg-color);
     font-family: Montserrat, Courier, system-ui, sans-serif;
 }
 
-.app{
+.app {
     padding: 50px 84px;
 }
-
-
-

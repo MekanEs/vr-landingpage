@@ -1,4 +1,4 @@
-.button{
+.button {
     @include typography-interactive;
     height: fit-content;
     min-width: 154px;
@@ -8,21 +8,24 @@
     color: var(--white-color);
     text-align: center;
     border: 1px solid var(--white-color);
-    &:hover, &:focus{
-    animation: shine-white 300ms 1;
+
+    &:hover,
+    &:focus {
+        animation: shine-white 300ms 1;
     }
 }
 
-.button--gradient{
+.button--gradient {
     border: none;
-    background: rgb(129,118,175);
+    background: rgb(129, 118, 175);
     background: var(--gradient-color);
     color: var(--dark-text-color);
-    
-    &:hover, &:focus{
-    animation: shine-gradient 300ms 1;
+
+    &:hover,
+    &:focus {
+        animation: shine-gradient 300ms 1;
     }
 }
 
 @include reflection-animation('shine-white');
-@include reflection-animation('shine-gradient',#8176af,#c0b7e8);
+@include reflection-animation('shine-gradient', #8176af, #c0b7e8);

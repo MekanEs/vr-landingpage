@@ -1,11 +1,12 @@
+.navbar {
+  display: flex;
+  gap: 42px;
+}
 
-.navbar{
-display: flex;
-gap: 42px;
+.navbar__link {
+  position: relative;
 }
-.navbar__link{
-    position: relative;
-}
+
 .navbar__link::after {
   content: '';
   position: absolute;
@@ -17,7 +18,7 @@ gap: 42px;
   opacity: 0.5;
   transform: scale(0);
   transform-origin: center;
-  transition:  transform 600ms ease, opacity 800ms;
+  transition: transform 600ms ease, opacity 800ms;
   will-change: transform;
 }
 
