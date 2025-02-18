@@ -1,13 +1,18 @@
 @import "reset";
 @import "base";
 @import "mixins";
+@import "typography";
 @import "./components/index.scss";
 
 body {
     background-color: var(--bg-color);
     font-family: Montserrat, Courier, system-ui, sans-serif;
+    color: var(--white-color);
+
 }
 
 .app {
     padding: 50px 84px;
+    max-width: 1440px;
+    margin: 0 auto;
 }

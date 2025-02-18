@@ -8,9 +8,4 @@
     --dark-text-color: #343045
 }
 
-@mixin typography-interactive($size: 12px) {
-    text-transform: uppercase;
-    letter-spacing: normal;
-    font-weight: bold;
-    font-size: $size;
-}
+//typography

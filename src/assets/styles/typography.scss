@@ -1,0 +1,35 @@
+.title-bold-40 {
+	@include typography-title(40px)
+}
+
+.title-bold-36 {
+	@include typography-title(36px)
+}
+
+.title-thin-36 {
+	@include typography-title-thin(40px)
+}
+
+.title-bold-24 {
+	@include typography-title(40px)
+}
+
+.text-12 {
+	@include typography-text(12px)
+}
+
+.text-14 {
+	@include typography-text(14px)
+}
+
+.text-16 {
+	@include typography-text(16px)
+}
+
+.gradient-text {
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-image: var(--gradient-color);
+	display: inline-block;
+}

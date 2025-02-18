@@ -1,0 +1,49 @@
+.welcome {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	align-items: center;
+}
+
+.welcome__image {
+	border-radius: 80px 80px 80px 240px;
+	border: solid rgba(0, 0, 0, 0.1);
+	border-width: 14px 18px;
+	-webkit-user-drag: none;
+}
+
+.welcome__container--left {
+	max-width: 450px;
+}
+
+.welcome__container--right {
+	color: aliceblue;
+}
+
+.welcome__text {
+	margin-bottom: 66px;
+}
+
+.welcome__title {
+	margin-bottom: 36px;
+}
+
+.welcome__button {
+	min-width: 214px;
+	position: relative;
+}
+
+
+
+.welcome__button::after {
+	content: "";
+	position: absolute;
+	left: 100%;
+	bottom: 0px;
+	width: 80px;
+	height: 100%;
+	background: url(../images/arrow.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: 40px;
+}

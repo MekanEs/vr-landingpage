@@ -1,6 +1,6 @@
 <template>
   <button
-    :class="['button', { 'button--gradient': isGradient }]"
+    :class="['button', className, { 'button--gradient': isGradient }]"
     @click="callback"
   >
     <slot />
@@ -14,6 +14,7 @@ import { ButtonType } from '../types/types';
 export interface ButtonProps {
   callback?: (payload: MouseEvent) => void;
   type?: ButtonType;
+  className?: string;
 }
 
 const { type = ButtonType.DEFAULT } = defineProps<ButtonProps>();

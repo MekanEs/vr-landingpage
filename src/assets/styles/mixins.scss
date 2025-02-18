@@ -78,3 +78,31 @@
     }
   }
 }
+
+@mixin typography-interactive($size: 12px) {
+  text-transform: uppercase;
+  letter-spacing: normal;
+  font-weight: bold;
+  font-size: $size;
+}
+
+
+@mixin typography-title($font-size) {
+  font-weight: 700;
+  font-size: $font-size;
+}
+
+@mixin typography-title-thin($font-size) {
+  font-weight: 100;
+  font-size: $font-size;
+}
+
+@mixin typography-text($font-size) {
+  font-weight: normal;
+  font-size: $font-size;
+}
+
+@mixin text($font-size) {
+  font-weight: normal;
+  font-size: $font-size;
+}

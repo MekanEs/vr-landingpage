@@ -6,3 +6,6 @@ export enum LinkType {
   BLACK = 'black',
   DEFAULT = 'white',
 }
+export type TitleType = {
+  isArrowed: boolean;
+};

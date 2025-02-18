@@ -1,0 +1,18 @@
+.text-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width:700px) {
+	.text-block {
+		flex-direction: column;
+	}
+
+	.text-block__right {
+		display: none;
+	}
+}
+
+.text-block__right {
+	max-width: 650px;
+}
