@@ -1,11 +1,8 @@
 export enum ButtonType {
-    DEFAULT='default',
-    GRADIENT='gradient'
+  DEFAULT = 'default',
+  GRADIENT = 'gradient',
 }
 export enum LinkType {
-    BLACK='black',
-    DEFAULT='white'
+  BLACK = 'black',
+  DEFAULT = 'white',
 }
-
-
-

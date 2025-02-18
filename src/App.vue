@@ -1,14 +1,11 @@
 <script setup lang="ts">
-import Header from './components/Header.vue'
-
+import Header from './components/Header.vue';
 </script>
 
 <template>
   <div class="app">
-<Header/>
+    <Header />
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
