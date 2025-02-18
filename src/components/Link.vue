@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue';
-import { LinkType } from '../types/interfaces';
+import { LinkType } from '../types/types';
 
 
 export interface LinkProps {

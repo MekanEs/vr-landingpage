@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { LinkType } from '../types/interfaces';
 import Link from './Link.vue';
 
 </script>

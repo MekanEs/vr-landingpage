@@ -5,7 +5,7 @@
 </template>
 <script setup lang="ts">
 import { computed } from 'vue';
-import {  ButtonType } from '../types/interfaces';
+import {  ButtonType } from '../types/types';
 
 
 export interface ButtonProps {
@@ -13,7 +13,7 @@ export interface ButtonProps {
     type?:ButtonType
 }
 
-const {type=ButtonType.DEFAULT} =defineProps<ButtonProps>()
+ const {type=ButtonType.DEFAULT} =defineProps<ButtonProps>()
 
 const isGradient = computed(()=>{
     return type!==ButtonType.DEFAULT
